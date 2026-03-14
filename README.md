@@ -12,7 +12,13 @@ Um sistema de gerenciamento de dados leve e eficiente construído inteiramente n
 * **GCC (Compilador)**
 
 ## ⚙️ Como Executar na Sua Máquina
+*pré-requisito: instalação do compilado (GCC) no terminal do seu Sistema Operacional (SO).
 
 1. Clone este repositório:
-   git clone 
-2. Navegue até a pasta
+   git clone https://github.com/DaniloODev/Mini-Banco-de-Dados.git
+2. Navegue até a pasta.
+3. Compile o código usanod o GCC:
+   gcc MiniBD.c -o minidb
+4. Execute o programa:
+   -No linux/mac: ./minidb
+   -No windows: minidb.exe
